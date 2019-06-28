@@ -26,6 +26,17 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('expenses-app');
   });
 
+  it(`should have as title 'comments-app'`, () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.debugElement.componentInstance;
+    expect(app.title2).toEqual('comments-app');
+  });
+
+  it(`should have as title 'userroles-app'`, () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.debugElement.componentInstance;
+    expect(app.title3).toEqual('userroles-app');
+  });
   it('should render title in a h1 tag', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();

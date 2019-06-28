@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'expenses-app';
+  title2 = 'comments-app';
+  title3 = 'userroles-app';
 }
